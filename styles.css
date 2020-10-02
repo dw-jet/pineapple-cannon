@@ -24,6 +24,7 @@ main {
 main h1 {
   text-align-last: center;
   font-size: 7rem;
+  letter-spacing: 2px;
 }
 
 @media only screen
