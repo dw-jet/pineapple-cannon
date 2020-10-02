@@ -1,0 +1,37 @@
+body {
+  font-size: 2rem;
+  background-color: #557B3F;
+  color: #FFD964;
+}
+
+.container {
+  margin: 0 auto;
+  font-family: 'Bangers', cursive;
+  display: grid;
+  place-items: center;
+  height: 95vh;
+  width: 95vw;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main h1 {
+  text-align-last: center;
+  font-size: 7rem;
+}
+
+@media only screen
+  and (max-device-width: 720px) {
+    body {
+      font-size: 1rem;
+    }
+    main h1 {
+      font-size: 4rem;
+    }
+}
